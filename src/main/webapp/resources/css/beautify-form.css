@@ -1,0 +1,180 @@
+
+
+
+form select {
+    width: auto;
+    height: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    font-size: 1.0em;
+    padding-left: 10px;
+    border:1px solid #909090;
+
+    -webkit-transition: box-shadow 0.30s ease-in-out;
+    -moz-transition: box-shadow 0.30s ease-in-out;
+    -ms-transition: box-shadow 0.30s ease-in-out;
+    -o-transition: box-shadow 0.30s ease-in-out;
+    transition: box-shadow 0.30s ease-in-out;
+
+}
+
+
+form input[type="text"],input[type="password"],input[type="email"]{
+    width: 300px;
+    height: 30px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+
+    font-size: 1.0em;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    padding-left: 10px;
+
+
+    border:1px solid #909090;
+
+    -webkit-transition: box-shadow 0.30s ease-in-out;
+    -moz-transition: box-shadow 0.30s ease-in-out;
+    -ms-transition: box-shadow 0.30s ease-in-out;
+    -o-transition: box-shadow 0.30s ease-in-out;
+    transition: box-shadow 0.30s ease-in-out;
+}
+
+form input[type="text"]:focus,select:focus ,input[type="password"]:focus,input[type="email"]:focus{
+    outline:none;
+    border:#87C6F9 1px solid;
+    box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+}
+
+/************ѡ��ť����****/
+.choose-image-button {
+    position: relative;
+    display: inline-block;
+    background: #d8dedf;
+    border: 1px solid #7a858a;
+    border-radius: 4px;
+    padding: 5px 20px;
+    overflow: hidden;
+    color: #000000;
+    text-decoration: none;
+    line-height: 20px;
+
+}
+.choose-image-button input {
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/**ѡ��ͼƬ��ť**/
+.choose-image-button:nth-of-type(1){
+    margin: 60px 0 0 30px;
+    display: block;
+    float: left;
+}
+/**û��ͼƬ��ť**/
+.choose-image-button:nth-of-type(2){
+    margin: 20px 0 0 -138px;
+    display: block;
+    float: left;
+}
+
+
+.choose-image-button:hover {
+    background: #c5eafd;
+    border-color: #9ecff3;
+    color: #265574;
+    text-decoration: none;
+}
+
+
+
+/**************�ı���*********/
+form textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+
+    border:1px solid #909090;
+
+    -webkit-transition: box-shadow 0.30s ease-in-out;
+    -moz-transition: box-shadow 0.30s ease-in-out;
+    -ms-transition: box-shadow 0.30s ease-in-out;
+    -o-transition: box-shadow 0.30s ease-in-out;
+    transition: box-shadow 0.30s ease-in-out;
+
+    font-size: 1.0em;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    padding: 10px;
+
+    line-height: 1.5em;
+}
+
+form textarea:focus {
+    outline:none;
+    border:#87C6F9 1px solid;
+    box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+}
+
+form input[type="submit"] {
+    width: 100px;
+    height: 33px;
+    background: #3498db;
+    border-color: #9ecff3;
+    color: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    border: 1px solid #6f8591;
+    font-size: 0.9em;
+    -webkit-transition: .4s;
+    -moz-transition:  .4s;
+    -ms-transition:  .4s;
+    -o-transition:  .4s;
+    transition:  .4s;
+
+    -webkit-transition: box-shadow 0.30s ease-in-out;
+    -moz-transition: box-shadow 0.30s ease-in-out;
+    -ms-transition: box-shadow 0.30s ease-in-out;
+    -o-transition: box-shadow 0.30s ease-in-out;
+    transition: box-shadow 0.30s ease-in-out;
+
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+
+}
+form input[type="submit"]:hover {
+    background: #5dd462;
+    border-color: #3fae4f;
+    border: #6fddc5 1px solid;
+    box-shadow: 0 0 8px rgb(60, 155, 120);
+}
+
+form input.error {
+    background: #000;
+
+}
+
+.error-message {
+    color: #ff1917;
+}
+
+.pass-message {
+    color: #169c1d;
+}
+
+
+input.input-error {
+    outline:none;
+    border: #f93830 1px solid;
+    box-shadow: 0 0 8px rgb(253, 84, 71);
+}
+
+

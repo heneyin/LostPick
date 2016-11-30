@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="base" template="/WEB-INF/layout/page.jsp">
+		<put-attribute name="header" value="/WEB-INF/layout/header.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+	</definition>
+	
+	<definition name="home" extends="base">
+		<put-attribute name="title" value="主页-LostPick"/>
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
+	</definition>
+	
+	<definition name="register" extends="base">
+		<put-attribute name="title" value="注册新用户-LostPick"/>
+		<put-attribute name="body" value="/WEB-INF/views/register.jsp"/>
+	</definition>
+	
+	<definition name="login" extends="base">
+		<put-attribute name="title" value="登陆-LostPick"/>
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp"/>
+	</definition>
+	
+	<definition name="addNotice" extends="base">
+		<put-attribute name="title" value="发布启事-LostPick"/>
+		<put-attribute name="body" value="/WEB-INF/views/addNotice.jsp"/>
+	</definition>
+	
+	<definition name="noticeDetail" extends="base">
+		<put-attribute name="title" value="-LostPick"/>
+		<put-attribute name="body" value="/WEB-INF/views/noticeDetail.jsp"/>
+	</definition>
+	
+	<definition name="notices" extends="base">
+		<put-attribute name="title" value="-LostPick"/>
+		<put-attribute name="body" value="/WEB-INF/views/notices.jsp"/>
+	</definition>
+	
+	<definition name="personalCenter" extends="base">
+		<put-attribute name="title" value="的个人中心-LostPick"/>
+		<put-attribute name="body" value="/WEB-INF/views/personalCenter.jsp"/>
+	</definition>
+	
+	<definition name="updatePassword" extends="base">
+		<put-attribute name="title" value="修改密码"/>
+		<put-attribute name="body" value="/WEB-INF/views/updatePassword.jsp"/>
+	</definition>
+	<definition name="error/error" extends="base">
+		<put-attribute name="title" value="出错了"/>
+		<put-attribute name="body" value="/WEB-INF/views/error/error.jsp"/>
+	</definition>
+	
+	<definition name="updateNotice" extends="base">
+		<put-attribute name="title" value="修改启事"/>
+		<put-attribute name="body" value="/WEB-INF/views/updateNotice.jsp"/>
+	</definition>
+	<definition name="updateUserInfo" extends="base">
+		<put-attribute name="title" value="修改个人信息"/>
+		<put-attribute name="body" value="/WEB-INF/views/updateUserInfo.jsp"/>
+	</definition>
+	
+</tiles-definitions>
